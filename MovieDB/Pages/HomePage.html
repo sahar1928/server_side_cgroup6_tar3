@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home page</title>
+
+    <style>
+    
+        h1{
+            text-align:center;
+        }
+
+        #big{
+            height:150px;
+            width:100%;
+            background-color:wheat;
+        } 
+
+        .small{
+            width:33.32%;
+            float:left;
+        }
+
+        button{
+            text-align:center;
+            width:100%;
+        }
+
+        img{
+            height:50px;
+            width:60%;
+            margin-left:auto;
+            margin-right:auto;
+            display:block;
+        }
+
+    </style>
+
+    <script>
+
+        function move(str) {
+            window.location.replace(str);
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+    <h1>WELCOME TO MOVIEDB </h1>
+
+    <div id="big">
+        
+        <div class="small">
+            <button onclick="move('insert.html')">Insert page</button>
+        </div>
+        
+        <div class="small">
+            <button onclick="move('viewMovie.html')">View movie</button>
+        </div>
+
+        <div class="small">
+            <button onclick="move('form.html')">form</button>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
